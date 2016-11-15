@@ -1,0 +1,381 @@
+/*  var   */
+
+$accent-1: #A7C46A;
+$accent-2: #688940;
+
+
+/*  Document styles   */
+
+.container {
+    border: 1px solid #ECECEC;
+    
+}
+
+/* Experimental Margins */
+
+/*.container tbody tr td:nth-child(1) {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+} */
+
+
+
+/*.first {
+    padding-left: 18px !important;
+    
+}
+
+.last {
+    padding-right: 18px !important;
+    
+}*/
+
+.pre-header th {
+    padding-top: 8px;
+    a.pre-head-phone {
+        color: $black !important;
+    }
+}
+
+
+.head-logo th {
+    background-color: $black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*padding-left: 18px;*/
+    width:100%;
+    
+}
+
+.header-logo th {
+    width: 100%;
+}
+
+/*.hero, .header-main {
+    max-width: 564px;
+}*/
+
+.separator th, .wrapper.spacer-bg td {
+    background-color: $black !important;
+    font-size: 14px;
+    width:100%;
+}
+
+.feature {
+    
+    .wrapper {
+        min-height: 60px;
+    }
+    .wrapper-inner {
+        background-color: $accent-1;
+        min-height: 60px;
+        padding: 9px;
+        /*padding-left: 18px;*/
+        a {
+            color: $white;
+            text-transform: uppercase;
+        }
+        
+        .main {
+            font-weight: 700;
+            /*font-size: 1.1em;*/
+        }
+        
+        .sub {
+            font-size: .9em;
+            font-style: italic;
+        }
+    }
+    min-height: 60px;
+    p {
+        background-color: $accent-1;
+        color: $white;
+    }
+    
+}
+
+.feature-txt {
+        color:$white;
+        text-transform: uppercase;
+    }
+.feature-btn, .btn-wrap {
+    /*line-height: 2.5em;*/
+    color: $white !important;
+    text-transform: uppercase;
+    min-height: 34px !important;
+    /*background-color: $accent-2;
+    margin-bottom: 0;*/
+}
+
+/*.feature-btn a {
+    line-height: 2.5em;
+    min-height: 44px !important;
+}*/
+
+.btn-wrap {
+    background-color: #688940 !important;
+}
+
+th.columns {
+    padding-bottom: 6px;
+}
+
+
+/*
+table.row {
+    margin-top: 6px !important;
+    
+}
+*/
+
+.ava-footer {
+    th{
+    padding-bottom: 10px;
+        }
+    a {
+        color: $black !important;
+    }
+    .disclaimer {
+        font-size: .7em;
+        padding-top: 1.5em;
+        padding-bottom: 1em;
+        
+    }
+}
+
+img.bonus {
+    /*min-width: 184px !important;*/
+    min-height: 250px !important;
+}
+
+
+/*Bullet Area*/
+
+.bullets table tbody tr {
+    background-color: $black !important;
+}
+
+.bullets table {
+    background-color: $black !important;
+    color: $white !important;
+}
+.bullets * {
+    background-color: $black !important;
+    color: $white !important;
+}
+
+.wrapper.bullet-bg {
+    background-color: $black !important;
+    td.wrapper-inner{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        padding-top: 10px !important;
+        /*padding-bottom: 5px !important;*/
+        background-color: $black !important;
+        color: $white !important;
+    }
+    ul {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+       /* padding-top: 10px;*/
+        padding-left: 20px !important;
+        background-color: $black !important;
+        li{
+            padding-bottom: 3px;
+            /*line-height: 1.1em;*/
+        }
+    }
+}
+
+
+/*
+.bullets th {
+    padding: 0.6em;
+}
+*/
+
+.bullet-bg * {
+    background-color: $black !important;
+    color: $white !important;
+}
+
+.bullets table {
+    min-height: 250px;
+    background-color: $black;
+    color: $white !important;
+}
+
+.bullets a, .bullets li {
+    background-color: $black !important;
+    color: $white !important;
+    font-size:0.9em;
+}
+th.bullets table {
+    background-color: $black !important;
+    color: $white !important;
+}
+table.bullet-bg td.wrapper-inner {
+    padding-top: 12px !important;
+    padding-bottom: 5px !important;
+    padding-right: 5px !important;
+}
+.bullet-bg-wrap * {
+     background-color: $black !important;
+    color: $white !important;
+}
+.pricing {
+    background-color: $black !important;
+    text-transform: uppercase;
+    color: $white !important;
+    font-weight: 600;
+    display: block;
+    font-size:16px !important;
+    padding-top: 3px;
+    /*padding-left: 20px; 
+    padding-bottom: 5px;
+    */
+}
+
+
+/*Menu styles*/
+.menu-last,  {
+        padding-right: 0 !important;
+    }
+.menu-item * {
+     background-color: $black !important;
+    color: $white !important;
+}
+.menu-wrap {
+     background-color: $black !important;
+      color: $white !important;
+}
+.menu-item {
+    padding-top: 0 !important;
+   
+    /*th {
+    
+    line-height: 2.5em;
+        }*/
+    a, a td {
+      min-width: 80px;
+      display: block;
+      background-color: $black !important;
+      color: $white !important;
+      /*padding-left: 25px !important;
+      padding-right: 25px !important;*/
+      line-height: 2.2em;
+      text-align: center;
+      vertical-align: middle !important;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+        vertical-align: middle !important;
+    }
+    
+}
+
+.menu th {
+    padding-left: 0 !important;
+}
+/*ADD MARGIN ON OUTSIDE*/
+table.addmargin td {
+        padding-left:12px;
+        padding-right:12px;
+    }
+
+.feature-btn td, .menu.small-vertical td {
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+.menu-expander td.wrapper-inner {
+    padding-left:6px !important;
+    padding-right:6px !important;
+}
+
+/* Mobile-Only styles  */
+
+@media only screen and (max-width: #{$global-breakpoint}) {
+    
+    body > table:last-of-type table{width:100% !important;}
+    
+    .pre-header th {
+        font-size: .9em !important;
+    }
+    
+    /*table.feature-btn {
+        margin-top: 6px !important;
+    }*/
+    a.feature-txt.sub {
+        font-size: 1.1em;
+    }
+    
+    /*body > table > tbody > tr > td > center > table > tbody > tr > td > table > tbody > tr > td > table.row.feature-row.expanded > tbody > tr > th.feature.small-12.large-9.columns.first > table > tbody > tr > th > table > tbody > tr > td {
+        padding-left: 10px !important;
+    }*/
+    
+    table.feature-btn a {
+        line-height: 2em !important;
+        font-size: 22px !important;
+    }
+    
+    .bullets li {
+        font-size: 1em !important;
+        line-height: 1.4em;
+    }
+    
+    li.pricing, li.pricing span {
+        font-size: 14px !important;
+        padding-bottom: 15px !important;
+    }
+    
+    .menu-item {
+        padding-right: 0 !important;
+        font-size: 20px !important;
+        a, a td {
+        font-size: 20px !important;  
+        }
+    }
+    
+    .wrapper.bullet-bg ul {
+       /* margin-left: 5px !important;*/
+        padding-top: 10px !important;
+        /*padding-left: 5px !important;*/
+    }
+    
+    /*.wrapper-inner {
+        font-size: 1.8em !important;
+    }*/
+    
+    /*.ava-footer th {
+        font-size: 1.2em !important;
+    }*/
+    
+    .ava-footer th img {
+        max-width: 20% !important;
+        width: 20% !important;
+        
+    }
+    
+    .ava-footer th img[alt="FHA - ADA"] {
+        max-width: 12% !important;
+        width: 12% !important;
+        
+    }
+    
+    /*table.wrapper.addmargin td.wrapper-inner {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }*/
+    
+    /*.disclaimer {
+        font-size: 1.1em !important;
+    }*/
+    
+    
+    
+    /*body > table > tbody > tr > td > center > table > tbody > tr > td > table.wrapper > tbody > tr > td > table > tbody > tr > th.expanded.small-12.large-3.columns.last > table > tbody > tr > th > table > tbody > tr > td:nth-child(1) > table > tbody > tr > td > center > a {
+        font-size: 2em !important;
+    }*/
+}
+
