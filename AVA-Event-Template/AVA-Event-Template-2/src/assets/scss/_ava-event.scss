@@ -115,10 +115,13 @@ hyphens: none;
     margin-bottom: 0;*/
 }
 
-/*.feature-btn a {
-    line-height: 2.5em;
-    min-height: 44px !important;
-}*/
+.feature-btn a {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 20px !important;
+    line-height: 3em;
+    
+}
 
 .btn-wrap {
     background-color: #688940 !important;
@@ -397,8 +400,10 @@ table.addmargin td {
     }*/
     
     table.feature-btn a {
-        line-height: 2em !important;
+        line-height: 1.6em !important;
         font-size: 22px !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
     }
     
     .event-label {
